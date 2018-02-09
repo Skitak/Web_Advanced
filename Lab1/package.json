@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev"  : "webpack",
+    "dev": "webpack",
     "build": "rimraf dist && webpack --config webpack.config.js --progress --profile --bail"
   },
   "keywords": [],
@@ -16,6 +16,8 @@
     "babel-loader": "^7.1.2",
     "bootstrap": "^4.0.0",
     "html-loader": "^0.5.5",
+    "jquery": "^3.3.1",
+    "popper": "^1.0.1",
     "rimraf": "^2.6.2",
     "ts-loader": "^3.3.1",
     "typescript": "^2.7.1",

@@ -72,8 +72,9 @@
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var jquery_1 = __webpack_require__(1);
+var modele1_1 = __webpack_require__(2);
 var a = "hi you";
-console.log("a");
+modele1_1.default(a);
 jquery_1.default("body").css("background-color", "green");
 
 /***/ }),
@@ -10446,6 +10447,19 @@ if ( !noGlobal ) {
 return jQuery;
 } );
 
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", { value: true });
+var log = function (a) {
+    console.log(a);
+};
+exports.default = log;
 
 /***/ })
 /******/ ]);
